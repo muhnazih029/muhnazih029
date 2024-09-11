@@ -5,4 +5,10 @@ I am an IT student at **Universitas Negeri Semarang (UNNES)**. I am passionate a
 if you got interested, Please connect [Linkedin](https://www.linkedin.com/in/muhammad-nazih-2857151a3/).
 
 
-https://www.dicoding.com/academies/317/tutorials/17226?from=17221#:~:text=adalah%20sebagai%20berikut.-,%23%23%23%20Github%20Statistic,%3C/p%3E,-Ingat%2C%20saat%20ini
+### Github Statistic
+<p align="left">
+<a href="https://github.com/dimasmds">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dimasmds&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dimasmds&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
