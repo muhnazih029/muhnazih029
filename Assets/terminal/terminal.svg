@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-label="Terminal: Muhammad Nazih">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-label="Terminal: Muhammad Nazih">
   <defs>
     <linearGradient id="termGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
-    <clipPath id="termClip">
-      <rect x="0" y="32" width="720" height="228" rx="0"/>
+    <clipPath id="avatarClip">
+      <circle cx="92" cy="135" r="46"/>
     </clipPath>
   </defs>
 
   <!-- Window frame -->
-  <rect x="0" y="0" width="720" height="260" rx="12" ry="12" fill="#1e1e2e"/>
+  <rect x="0" y="0" width="720" height="300" rx="12" ry="12" fill="#1e1e2e"/>
   <rect x="0" y="0" width="720" height="32" rx="12" ry="12" fill="#313244"/>
   <rect x="0" y="20" width="720" height="12" fill="#313244"/>
 
@@ -22,33 +22,37 @@
   <!-- Title -->
   <text x="360" y="21" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cdd6f4" text-anchor="middle" font-weight="600">muhnazih@github — zsh</text>
 
-  <!-- Body -->
+  <!-- Avatar (neofetch logo side) -->
+  <circle cx="92" cy="135" r="50" fill="#313244" stroke="#45475a" stroke-width="2"/>
+  <image href="https://avatars.githubusercontent.com/u/119296653?v=4" x="46" y="89" width="92" height="92" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Fastfetch info -->
   <g font-family="'Fira Code', 'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="13" fill="#cdd6f4">
-    <text x="20" y="60"><tspan fill="#89dceb" font-weight="700">$</tspan> fastfetch</text>
-    <text x="20" y="82" fill="#6c7086">muhammad@nazih ~</text>
+    <text x="170" y="78"><tspan fill="#89dceb" font-weight="700">$</tspan> fastfetch</text>
+    <text x="170" y="96" fill="#6c7086" font-size="11">muhammad@nazih ~</text>
 
-    <text x="20" y="108"><tspan fill="#89b4fa" font-weight="700">OS:</tspan>      Muhammad Nazih</text>
-    <text x="20" y="126"><tspan fill="#89b4fa" font-weight="700">Role:</tspan>    Software Engineer</text>
-    <text x="20" y="144"><tspan fill="#89b4fa" font-weight="700">Focus:</tspan>   Web · Cloud · Networks</text>
-    <text x="20" y="162"><tspan fill="#89b4fa" font-weight="700">Stack:</tspan>   TS · React · Astro · Node · Bun · PHP · Laravel · Prisma · Docker · Postgres</text>
-    <text x="20" y="180"><tspan fill="#89b4fa" font-weight="700">Shell:</tspan>   zsh  |  Terminal: GitHub</text>
+    <text x="170" y="122"><tspan fill="#89b4fa" font-weight="700">OS:</tspan>      Muhammad Nazih</text>
+    <text x="170" y="140"><tspan fill="#89b4fa" font-weight="700">Role:</tspan>    Software Engineer</text>
+    <text x="170" y="158"><tspan fill="#89b4fa" font-weight="700">Focus:</tspan>   Web · Cloud · Networks</text>
+    <text x="170" y="176"><tspan fill="#89b4fa" font-weight="700">Stack:</tspan>   TS · React · Astro · Node · Bun · PHP · Laravel · Prisma · Docker · Postgres</text>
+    <text x="170" y="194"><tspan fill="#89b4fa" font-weight="700">Shell:</tspan>   zsh  |  Terminal: GitHub</text>
 
-    <text x="20" y="206"><tspan fill="#89dceb" font-weight="700">$</tspan> echo $LINKS</text>
+    <text x="170" y="220"><tspan fill="#89dceb" font-weight="700">$</tspan> echo $LINKS</text>
   </g>
 
   <!-- Link buttons -->
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">
     <a href="https://muhnazih.azdastudio.my.id" target="_blank">
-      <rect x="20" y="218" width="92" height="26" rx="6" fill="url(#termGrad)"/>
-      <text x="66" y="236" fill="#1e1e2e" text-anchor="middle">Portfolio</text>
+      <rect x="170" y="232" width="92" height="26" rx="6" fill="url(#termGrad)"/>
+      <text x="216" y="250" fill="#1e1e2e" text-anchor="middle">Portfolio</text>
     </a>
     <a href="https://www.linkedin.com/in/muhnazih029" target="_blank">
-      <rect x="122" y="218" width="86" height="26" rx="6" fill="#313244" stroke="#45475a"/>
-      <text x="165" y="236" fill="#cdd6f4" text-anchor="middle">LinkedIn</text>
+      <rect x="272" y="232" width="86" height="26" rx="6" fill="#313244" stroke="#45475a"/>
+      <text x="315" y="250" fill="#cdd6f4" text-anchor="middle">LinkedIn</text>
     </a>
     <a href="https://github.com/muhnazih029" target="_blank">
-      <rect x="218" y="218" width="78" height="26" rx="6" fill="#313244" stroke="#45475a"/>
-      <text x="257" y="236" fill="#cdd6f4" text-anchor="middle">GitHub</text>
+      <rect x="368" y="232" width="78" height="26" rx="6" fill="#313244" stroke="#45475a"/>
+      <text x="407" y="250" fill="#cdd6f4" text-anchor="middle">GitHub</text>
     </a>
   </g>
 </svg>
