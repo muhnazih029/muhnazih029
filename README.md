@@ -8,11 +8,7 @@
 <p align="center"><img src="Assets/divider.svg" alt="divider" width="800" /></p>
 
 <!-- Metrics -->
-<<<<<<< HEAD
 <p align="center"><img src="github-metrics.svg" alt="Metrics" /></p>
-=======
-<p align="center"><img loading="lazy" src="github-metrics.svg" alt="Metrics" /></p>
->>>>>>> 31a6fd1 (Terminal status: only bottom-left rounded + darker bg; fastfetch bottom-right rounded; lazy-load metrics)
 <p align="center"><img loading="lazy" src="https://github-stats-extended.vercel.app/api/top-langs/?username=muhnazih029&layout=compact&hide_border=true&theme=dark_github" alt="Top Languages" /> <img loading="lazy" src="https://streak-stats.demolab.com/?user=muhnazih029&theme=transparent&hide_border=true&short_numbers=true&card_width=200" alt="GitHub Streak" /></p>
 
 <p align="center"><img src="Assets/divider.svg" alt="divider" width="800" /></p>
